@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+#upper,#lower{
+    background-color: #A0E4F1;
+    text-align: center;;
+    height: 450px;
+}
+#middle{
+    background-color: #F1FAFB;
+    text-align: center;
+    height: 450px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#footer{
+    background-color: #3A4750;
+    margin-top: -50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+}
+.cp{
+    padding-top: 10px;
+}
+.title{
+    font-size: large;
+    padding-left: 50px;
+    margin: 20px;
+    word-spacing: 10px; 
+}
+.links{
+    font-size: 20px;
+    float: right;
+    padding-right:100px;
+    margin-top: -30px;
+}
+.link{
+    margin: 0px 30px;
+    color: #3A4750;
+}
+/* Upper section */
+.video{
+    padding-top: 65px;
+}
+/* middle section */
+.quote{
+    padding-left: 30%;
+    width: 60%;
+    font-size: 20px;
+}
+.image{
+   height: 300px;
+   width: 400px;
+   padding-right: 100px;
+   background-image: url("https://pixabay.com/get/g30821192fb7f93a73db3ec65f1c4a69730afd6fc8971bd2048ba072738d93c7ec080ccccc983a01f0d74998027aea0e2e947f9f64da47210cea57fa20b3fe4ea6fa02ca4ed3a58fd3c8af0ea6af64425_1280.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+/* Lower Section */
+h2{
+    padding: 50px;
+}
+.bio{
+    font-size: 20px;
+    width: 75%;
+    margin: auto;
+    line-height: 1.6;
+    word-spacing: .5em;
+}
+.rm{
+    color: red;
+}
+
+/* Rsponsive */
+@media (max-width: 952px){
+    .image{
+        width:250px;
+    }
+    #lower{
+        height: auto;
+    }
+    #footer{
+        margin: auto;
+    }
+    .link{
+        margin: auto;
+    }
+}
